@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>event_simulator_ros</name>
+  <version>0.1.0</version>
+  <description>ROS1 wrapper for the event camera simulator</description>
+  <maintainer email="andreas.ziegler@uni-tuebingen.de">Andreas Ziegler</maintainer>
+  <author email="andreas.ziegler@uni-tuebingen.de">Andreas Ziegler</author>
+  <license>BSD</license>
+
+  <depend>roscpp</depend>
+  <depend>image_transport</depend>
+  <depend>cv_bridge</depend>
+  <depend>event_simulator</depend>
+  <depend>prophesee_event_msgs</depend>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <export>
+  </export>
+</package>

@@ -1,0 +1,2 @@
+#!/bin/bash
+jq -s 'map(.[])' build/**/compile_commands.json > src/compile_commands.json

@@ -1,0 +1,38 @@
+num_inter_frames: 20
+basicdifference:
+  c_pos: 20
+  c_neg: 20
+
+dense:
+  dis:
+    hq:
+      c_pos: 3
+      c_neg: 3
+    lq:
+      c_pos: 3
+      c_neg: 3
+
+  farneback:
+    cpu:
+      c_pos: 3
+      c_neg: 3
+    gpu:
+      c_pos: 3
+      c_neg: 3
+
+sparse:
+  cpu:
+    c_pos: 6
+    c_neg: 6
+  gpu:
+    c_pos: 7
+    c_neg: 7
+
+difference:
+  cpu:
+    c_pos: 19
+    c_neg: 19
+  gpu:
+    c_pos: 19
+    c_neg: 19
+  c_offset: 10
