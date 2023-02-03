@@ -10,8 +10,10 @@ Paper: [Real-time event simulation with frame-based cameras](https://arxiv.org/p
 
 Video: [YouTube](https://www.youtube.com/@ZellTuebingen)
 
+Project: [See here](file:///data/repos/event-simulation-project-page/index.html)
+
 ```
-@inproceedings{Ziegler2022icra,
+@inproceedings{Ziegler2023icra,
 	title = {Real-time event simulation with frame-based cameras},
 	booktitle = {2023 {International} {Conference} on {Robotics} and {Automation} ({ICRA})},
 	publisher = {IEEE},
