@@ -10,7 +10,7 @@ Paper: [Real-time event simulation with frame-based cameras](https://arxiv.org/p
 
 Video: [YouTube](https://www.youtube.com/@ZellTuebingen)
 
-Project: [See here](file:///data/repos/event-simulation-project-page/index.html)
+Project: [See here](https://cogsys-tuebingen.github.io/realtime_event_simulator/)
 
 ```
 @inproceedings{Ziegler2023icra,
