@@ -10,8 +10,10 @@ Paper: [Real-time event simulation with frame-based cameras](https://arxiv.org/p
 
 Video: [YouTube](https://youtu.be/wJ9f_IKiX08)
 
+Project: [See here](https://cogsys-tuebingen.github.io/realtime_event_simulator/)
+
 ```
-@inproceedings{Ziegler2022icra,
+@inproceedings{Ziegler2023icra,
 	title = {Real-time event simulation with frame-based cameras},
 	booktitle = {2023 {International} {Conference} on {Robotics} and {Automation} ({ICRA})},
 	publisher = {IEEE},
