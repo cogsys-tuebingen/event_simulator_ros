@@ -31,7 +31,6 @@ find_package(
 
 catkin_package(
   INCLUDE_DIRS
-  include/${PROJECT_NAME}/
   LIBRARIES
   ${PROJECT_NAME}
   CATKIN_DEPENDS
