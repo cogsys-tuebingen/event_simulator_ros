@@ -8,7 +8,7 @@ If you use this code in an academic context, please cite the following publicati
 
 Paper: [Real-time event simulation with frame-based cameras](https://arxiv.org/pdf/2209.04634.pdf)
 
-Video: [YouTube](https://www.youtube.com/@ZellTuebingen)
+Video: [YouTube](https://youtu.be/wJ9f_IKiX08)
 
 Project: [See here](https://cogsys-tuebingen.github.io/realtime_event_simulator/)
 
