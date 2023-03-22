@@ -46,20 +46,23 @@ Dependencies:
 
 3. Clone repositories:
 ```
+cd ~/event-simulator_ws/src
 git clone https://github.com/cogsys-tuebingen/event_simulator.git src/event_simulator
-cd https://github.com/cogsys-tuebingen/event_simulator_ros.git src/event_simulator
+cd src/event_simulator/
 git submodule update --init --recursive
 cd ../..
-git clone src/event_simulator_ros
-git clone https://github.com/prophesee-ai/prophesee_ros_wrapper.git 
+git clone https://github.com/cogsys-tuebingen/event_simulator_ros.git src/event_simulator_ros
+git clone https://github.com/prophesee-ai/prophesee_ros_wrapper.git
 cp -r prophesee_ros_wrapper/prophesee_event_msgs src/
-rm -rf prophesee_ros_wrapper
-git clone https://github.com/ros-drivers/usb_cam.git usb_cam
+rm -rf prophesee_ros_wrapper/
+git clone https://github.com/ros-drivers/usb_cam.git src/usb_cam
 ```
+
 
 4. Build:
 ```
-catkin config -DCMAKE_BUILD_TYPE=RelWithDebInfo`
+source /opt/ros/noetic/setup.bash
+catkin config -DCMAKE_BUILD_TYPE=RelWithDebInfo
 catkin build
 ```
 
