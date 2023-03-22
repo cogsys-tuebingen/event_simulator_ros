@@ -67,10 +67,29 @@ catkin build
 ```
 
 5. Run:
+
+ROS node:
+**Note:** `event_simulator_ros` expects frames in the `/usb_cam/image_raw` topic.
 ```
 source devel/setup.bash
+rosrun usb_cam usb_cam_node
 rosrun event_simulator_ros event_simulator_ros
 ```
+
+Using videos:
+```
+source devel/setup.bash
+rosrun event_simulator_ros event_simulator_video --video /path/to/video --record_video
+```
+**Note:** Use `--help` to see all the options.
+
+```
+Calculate the timings:
+source devel/setup.bash
+rosrun event_simulator_ros event_simulator_timings --video /path/to/video
+```
+**Note:** Use `--help` to see all the options.
+
 
 ### Parameters
 
