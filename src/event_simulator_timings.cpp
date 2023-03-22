@@ -78,6 +78,11 @@ int main(int argc, const char* argv[]) {
       boost::program_options::parse_command_line(argc, argv, od), vm);
   boost::program_options::notify(vm);
 
+  if (vm.count("help")) {
+    std::cout << od << "\n";
+    return false;
+  }
+
   auto video_path = vm["video"].as<std::string>();
   if (video_path.empty()) {
     throw std::invalid_argument("No video provided");
